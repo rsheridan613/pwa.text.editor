@@ -23,9 +23,8 @@ module.exports = () => {
         title: "J.A.T.E.",
       }),
       new WebpackPwaManifest({
-        name: "J.A.T.E.",
+        name: "Just Another Text Editor",
         short_name: "J.A.T.E.",
-        description: "Just Another Text Editor",
         background_color: "#7eb4e2",
         theme_color: "#7eb4e2",
         start_url: "./",
