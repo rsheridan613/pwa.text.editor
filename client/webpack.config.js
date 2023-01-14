@@ -23,6 +23,8 @@ module.exports = () => {
         title: "J.A.T.E.",
       }),
       new WebpackPwaManifest({
+        fingerprints: false,
+        inject: true,
         name: "Just Another Text Editor",
         short_name: "J.A.T.E.",
         background_color: "#7eb4e2",
